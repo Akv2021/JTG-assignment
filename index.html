@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" content="width=device-width, initial-scale=1.0">
+    <title>Assignment</title>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+    <script src="http://malsup.github.com/jquery.cycle2.js"></script>
+    <!--    <script src="main.js"></script>-->
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,500,600" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+
+    <script>
+        $("#myCarousel").carousel({
+            interval: 3000,
+            pause: "hover"
+        });
+
+    </script>
+</head>
+
+<body>
+    <!--outer container-->
+    <div id="outer">
+        <header>
+            <div class="container">
+                <div class="logo">
+                    <img src="images/logo.png" alt="Company logo">
+                </div>
+                <div class="nav-box">
+                    <ul class="nav-items">
+                        <li>PRODUCTS</li>
+                        <li>CUSTOMERS</li>
+                        <li>NEWS + EVENTS</li>
+                        <li>ABOUT US</li>
+                    </ul>
+                </div>
+            </div>
+        </header>
+
+        <main class="container">
+
+            <section>
+
+                <!-- caraousel starts-->
+                <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                        <li data-target="#myCarousel" data-slide-to="1"></li>
+                    </ol>
+                    <div class="carousel-inner">
+                        <div class="item active">
+                            <div class="carousel-text">
+                                <div class="container-text">
+                                    <h1 class="uppercase">meta consectus</h1>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum officiis eos, ipsum minus possimus porro </p>
+                                    <span class="learn-more">learn more<img src="images/arrow.png" /></span>
+                                </div>
+                            </div>
+                            <img src="images/banner_slider_01.jpg" alt="banner_slider_01" style="width:100%;">
+                        </div>
+
+                        <div class="item">
+                            <div class="carousel-text">
+                                <div class="container-text">
+                                    <h1 class="uppercase">Lorem ipsum dolor</h1>
+                                    <p>Beatae deserunt magnam dicta eos blanditiis iure, velit, ad porro molestias repellat quasi temporibus aperiam similique sed inventore quaerat.</p>
+                                    <span class="learn-more">learn more<img src="images/arrow.png" /></span>
+                                </div>
+                            </div>
+                            <img src="images/banner_slider_02.jpg" alt="banner_slider_02" style="width:100%;">
+                        </div>
+                    </div>
+                </div>
+                <!-- caraousel ends -->
+            </section>
+
+            <!-- lifestyle starts -->
+            <section id="lifestyle">
+                <p class="titles">the connected lifestyle</p>
+                <div class="row">
+                    <div class="col-md-4">
+                        <p class="box-content">
+                            Lorem ipsum dolor sit amet, cons adipiscing elit. Aenean a, rhoncus arcu eu, vehicula lacus.
+                            Vivamus tincidunt tempus posuere.
+                        </p>
+                        <p class="box-content">
+                            Lorem ipsum dolor sit amet, cons adipiscing elit. Aenean a, rhoncus arcu eu, vehicula lacus.
+                            Vivamus tincidunt tempus posuere.Lorem ipsum dolor sit amet, cons adipiscing elit. Aenean a, rhoncus arcu eu, vehicula lacus.
+                            Vivamus tincidunt tempus posuere.Lorem ipsum dolor sit amet, cons adipiscing elit. Aenean a, rhoncus arcu eu, vehicula lacus.
+                            Vivamus tincidunt tempus posuere.
+                        </p>
+                        <span class="learn-more">learn more<img src="images/arrow.png" /></span>
+                    </div>
+                    <div class="col-md-4">
+                        <h6 class="subtitle" style="padding-left: 2.5%">lorem ipsum</h6>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <img src="images/lifestyle_thmb_img01.png" class="lifestyle-thumbnail" style="margin-top: -9px;">
+                                <p class="minititle">connect</p>
+                                <p class="box-content">
+                                    Lorem ipsum dolor sit amet, cons adipiscing elit. Aenean a, rhoncus arcu eu, vehicula lacus.
+                                </p>
+                                <p class="box-content">
+                                    Lorem ipsum dolor sit amet, cons adipiscing elit. Aenean a, rhoncus arcu eu, vehicula lacus.
+                                </p>
+                            </div>
+                            <div class="col-md-6">
+                                <img src="images/lifestyle_thmb_img02.png" class="lifestyle-thumbnail" style="margin-top: -9px;">
+                                <p class="minititle uppercase">experience</p>
+                                <p class="box-content">
+                                    Lorem ipsum dolor sit amet, cons adipiscing elit. Aenean a, rhoncus arcu eu, vehicula lacus.
+                                </p>
+                                <p class="box-content">
+                                    Lorem ipsum tincidunt tempus posuere posueredfdf tempus.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <h4 class="subtitle uppercase" style="padding-left: 2.5%">lorem ipsum dolor</h4>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <img src="images/lifestyle_thmb_img03.png" class="lifestyle-thumbnail" style="margin-top: -9px;">
+                                <p class="minititle uppercase">discover</p>
+                                <p class="box-content">
+                                    Lorem ipsum dolor sit amet, cons adipiscing elit. Aenean a, rhoncus arcu eu, vehicula lacus.
+                                </p>
+                                <p class="box-content">
+                                    Lorem ipsum dolor sit amet, cons adipiscing elit. Aenean a, rhoncus arcu eu, vehicula lacus.
+                                </p>
+                            </div>
+                            <div class="col-md-6">
+                                <img src="images/lifestyle_thmb_img04.png" class="lifestyle-thumbnail" style="margin-top: -9px;">
+                                <p class="minititle uppercase">grow</p>
+                                <p class="box-content">
+                                    Lorem ipsum dolor sit amet, cons adipiscing elit. Aenean a, rhoncus arcu eu, vehicula lacus.
+                                </p>
+                                <p class="box-content">
+                                    Lorem ipsum tincidunt tempus posuere posueredfdf tempus.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- lifestyle ends -->
+
+            <!--        testimonials starts-->
+            <section id="customers-news">
+                <div class="row">
+                    <div class="col-md-7">
+                        <p class="titles">our customers</p>
+                        <p class="content">
+                            Lorem ipsum dolor sit amet, cons adipiscing elit. Aenean a, rhoncus arcu eu, vehicula lacus.
+                            Vivamus posuere.Lorem ipsum dolor sit amet, elit. Aenean a, rhoncus arcu eu, vehicula
+                            lacus.&nbsp;&nbsp;&nbsp;
+                            <span><a href="#">learn more</a></span>
+                        </p>
+                        <div class="row" style="margin-left: -10px;">
+                            <div class="col-md-4">
+                                <img src="images/custmr_logo01.png" alt="" class="customer-img">
+                            </div>
+                            <div class="col-md-4">
+                                <img src="images/custmr_logo02.png" alt="" class="customer-img ">
+                            </div>
+                            <div class="col-md-4">
+                                <img src="images/custmr_logo03.png" alt="" class="customer-img">
+                            </div>
+                            <div class="col-md-4">
+                                <img src="images/custmr_logo04.png" alt="" class="customer-img">
+                            </div>
+                            <div class="col-md-4">
+                                <img src="images/custmr_logo05.png" alt="" class="customer-img">
+                            </div>
+                            <div class="col-md-4">
+                                <img src="images/custmr_logo06.png" alt="" class="customer-img">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-md-offset-1">
+                        <p class="titles">in the news</p>
+                        <div class="news-section">
+                            <p class="news-headline">Lorem ipsum dolor sit amet</p>
+                            <p class="news-date">July 1, 2011</p>
+                            <p class="content">
+                                Lorem ipsum dolor sit amet, cons adipiscing elit. Aenean a, rhoncus arcu eu, vehicula lacus.
+                                Vivamus posuere. Cons adipiscing elit. Aenean a, rhoncus arcu eu, vehicula
+                                lacus. Lorem ipsum dolor sit amet. Aenean a vehicula lacus.
+                                Vivamus posuere. ehicula
+                                lacus... &nbsp;&nbsp;&nbsp;
+                                <span class="">
+                                    <a href="#">continue reading</a>
+                                </span>
+                            </p>
+                        </div>
+                        <div class="news-section">
+                            <p class="news-headline">Cons adipiscing elita enean</p>
+                            <p class="news-date">June 30, 2011</p>
+                            <p class="content">
+                                Lorem ipsum dolor sit amet, cons adipiscing elit. Aenean a, rhoncus arcu eu, vehicula lacus.
+                                Vivamus posuere. Cons adipiscing elit. Aenean a, rhoncus arcu eu, vehicula
+                                lacus. Lorem ipsum dolor sit amet. Aenean a vehicula lacus.
+                                Vivamus posuere vehicula
+                                lacus... &nbsp;&nbsp;&nbsp;
+                                <span class="">
+                                    <a href="#">continue reading</a>
+                                </span>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!--        testimonials ends-->
+
+            <!-- media-resources box -->
+            <section id="media-resources">
+                <div class="row">
+                    <div class="col-md-5">
+                        <p class="titles">media resources - photos</p>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <img src="images/flower.jpg" class="thumbnail-img" alt="img1">
+                            </div>
+                            <div class="col-md-6">
+                                <img src="images/flower.jpg" class="thumbnail-img" alt="img2">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <img src="images/flower.jpg" class="thumbnail-img" alt="img3">
+                            </div>
+                            <div class="col-md-6">
+                                <img src="images/flower.jpg" class="thumbnail-img" alt="img4">
+                            </div>
+                        </div>
+                        <div>
+                            <p class="content">
+                                Lorem ipsum dolor sit amet, cons adipiscing elit. Aenean a, rhoncus arcu eu, vehicula lacus.
+                                Vivamus tincidunt tempus posuere.
+                                <span><a href="#">continue reading</a></span>
+                            </p>
+                        </div>
+                    </div>
+                    <!-- end of image thumbnails column -->
+                    <div class="col-md-5 col-md-offset-2">
+                        <p class="titles">media resources - videos</p>
+                        <div class="row">
+                            <div class="col-md-6 video-container">
+                                <iframe class="videos" src="https://www.youtube.com/embed/9xwazD5SyVg" frameborder="0" data-title="Video1"></iframe>
+                            </div>
+                            <div class="col-md-6 video-container">
+                                <iframe class="videos" src="https://www.youtube.com/embed/9xwazD5SyVg" frameborder="0" data-title="video2"></iframe>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-6 video-container">
+                                <iframe class="videos" src="https://www.youtube.com/embed/9xwazD5SyVg" frameborder="0" data-title="video3"></iframe>
+                            </div>
+                            <div class="col-md-6 video-container">
+                                <iframe class="videos" src="https://www.youtube.com/embed/9xwazD5SyVg" frameborder="0" data-title="video4"></iframe>
+                            </div>
+                        </div>
+                        <div>
+                            <p class="content">
+                                Lorem ipsum dolor sit amet, cons adipiscing elit. Aenean a, rhoncus arcu eu, vehicula lacus.
+                                Vivamus tincidunt tempus posuere.
+                                <span><a href="#">continue reading</a></span>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- media-resources box -->
+        </main>
+    </div>
+    <!--	outer conatiner ends-->
+
+    <footer>
+        <div class="container">
+            <span class="link-container">
+                <a href="#" class="uppercase">home</a>
+            </span>
+            <span class="link-container">
+                <a href="#" class="uppercase">products</a>
+            </span>
+            <span class="link-container">
+                <a href="#" class="uppercase">customers</a>
+            </span>
+            <span class="link-container">
+                <a href="#" class="uppercase">news + events</a>
+            </span>
+            <span class="link-container">
+                <a href="#" class="uppercase">about us</a>
+            </span>
+            <span class="link-container copyright">
+                <a href="#">&copy; 2011 Company Name. All rights reserved.</a>
+            </span>
+        </div>
+    </footer>
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</body>
+
+</html>
