@@ -109,8 +109,7 @@ header .nav-box {
     text-align: right;
 }
 
-.carousel-indicators li,
-.carousel-indicators .active {
+.carousel-indicators li,.carousel-indicators .active {
     height: 15px;
     width: 15px;
 }
